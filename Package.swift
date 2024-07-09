@@ -21,7 +21,7 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
-.binaryTarget(name: "Tapjoy", url: "https://sdk.tapjoy.com/releases/14.0.0/SwiftPackage/Tapjoy.xcframework.zip", checksum: "6d76493317c288c31693407a8647ec096716ccab1fcf42795d875bc7d347ad59"),
+.binaryTarget(name: "Tapjoy", url: "https://sdk.tapjoy.com/release/13.4.0/SwiftPackage/Tapjoy.xcframework.zip", checksum: "cc147173a8bf42f27f84650198a0e4b77f5d2b690d50663fa2974712ce8c2994"),
     ]
 )
 
